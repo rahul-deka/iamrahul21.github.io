@@ -297,7 +297,8 @@ abbr[title] {
 .nav__list a {
     color: #9b9b9b;
     text-decoration: none;
-    font-size: 2em
+    font-size: 2em;
+    cursor: pointer;
 }
 
 .nav__list a.active {
