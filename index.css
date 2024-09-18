@@ -328,8 +328,8 @@ abbr[title] {
 }
 
 .social-icons__link .social-icons__icon {
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.6rem;
+    height: 1.6rem;
     background-size: contain;
     background-repeat: no-repeat
 }
@@ -344,7 +344,7 @@ main {
 
 @media screen and (min-width: 800px) {
     main {
-        padding-left:calc(1.5rem + 100px)
+        padding-left:calc(1.5rem)
     }
 }
 
@@ -385,22 +385,6 @@ main {
     line-height: 1.25;
     max-width: 22em;
     letter-spacing: -.03em
-}
-
-.fancy {
-    color: #9013fe
-}
-
-.handle {
-    display: inline-block;
-    margin-top: .275em;
-    color: #9b9b9b;
-    letter-spacing: .5px
-}
-
-.writing {
-    text-decoration: none;
-    color: #9013fe
 }
 
 main {
