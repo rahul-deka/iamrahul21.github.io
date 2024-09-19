@@ -320,21 +320,6 @@ abbr[title] {
     justify-content: center
 }
 
-.social-icons__link {
-    padding: .8rem
-}
-
-.social-icons__link:not(:last-child) {
-    margin-right: 1em
-}
-
-.social-icons__link .social-icons__icon {
-    width: 1.6rem;
-    height: 1.6rem;
-    background-size: contain;
-    background-repeat: no-repeat
-}
-
 body.nav--active {
     overflow: hidden
 }
@@ -398,4 +383,19 @@ main {
     justify-content: center;
     padding-top: 1rem;
     margin-left: -.8rem
+}
+
+.social-icons__link {
+    padding: .8rem
+}
+
+.social-icons__link:not(:last-child) {
+    margin-right: 1em
+}
+
+.social-icons__link .social-icons__icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    background-size: contain;
+    background-repeat: no-repeat
 }
