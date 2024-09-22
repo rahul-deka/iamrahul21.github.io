@@ -399,3 +399,19 @@ main {
     background-size: contain;
     background-repeat: no-repeat
 }
+
+.social-icons__link:hover .linkedin-icon {
+    filter: brightness(0) saturate(100%) invert(32%) sepia(72%) saturate(5157%) hue-rotate(170deg) brightness(98%) contrast(103%);
+}
+
+.social-icons__link:hover .email-icon {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(65%) saturate(6185%) hue-rotate(348deg) brightness(95%) contrast(87%);
+}
+
+.social-icons__link:hover .github-icon {
+    filter: brightness(0) saturate(100%) invert(9%) sepia(0%) saturate(0%) hue-rotate(194deg) brightness(92%) contrast(100%);
+}
+
+.social-icons__link:hover .instagram-icon {
+    filter: brightness(0) saturate(100%) invert(44%) sepia(88%) saturate(3551%) hue-rotate(308deg) brightness(91%) contrast(97%);
+}
