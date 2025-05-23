@@ -256,6 +256,11 @@ abbr[title] {
     width: 50%
 }
 
+.nav__list a::selection {
+    background: #16A34A;
+    color: white;
+}
+
 @media screen and (min-width: 800px) {
     .nav__list {
         width:auto
@@ -361,12 +366,22 @@ main {
     margin: 0
 }
 
+.splash h1::selection {
+    background: #16A34A;
+    color: white;
+}
+
 .splash h2 {
     font-size: 2.25em;
     font-weight: 500;
     line-height: 1.25;
     max-width: 22em;
     letter-spacing: -.03em
+}
+
+.splash h2::selection {
+    background: #16A34A;
+    color: white;
 }
 
 main {
